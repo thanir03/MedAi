@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+img {
+  height: 70px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.navigation-link {
+  display: flex;
+  gap: 40px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: red;
+}
